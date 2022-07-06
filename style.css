@@ -1,0 +1,273 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:black
+
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.contents1{
+    font-size:20px;
+    font-weight:lighter;
+}
+.contents2{
+    font-size:24px;
+    font-weight: medium;
+}
+
+.contents3{
+    font-size: 18px;
+    font-weight: medium;
+}
+.pont18{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.pont14{
+    font-size:14px;
+    font-weight:lighter;
+}
+.intro_bg{
+    background-image: url("image/intro.png");
+    width:100%;
+    height:718px;
+}
+
+.header{
+    display:flex;
+    width:1280px;
+    margin:auto;
+
+    height:86px;
+}
+
+.searchArea{
+    width:300px;
+    height:40px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-top:24px;
+}
+
+.searchArea > form > input{
+    border: none;
+    width:250px;
+    height:40px;
+    background:rgba(0,0,0,0.0);
+    color:white;
+    padding-left:10px;
+}
+
+.searchArea > form > span{
+    width:50px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.nav{
+    width:calc(1280px - 300px);
+    display:flex;
+    justify-content:flex-end;
+    line-height:86px;
+}
+
+.nav > li{
+    margin-left:84px;
+}
+
+.nav > li > a{
+    color:white;
+}
+
+.intro_text{
+    width: 100%;
+    text-align: center;
+    margin: 231px auto 231px auto;
+
+}
+
+.intro_text > h1,
+.intro_text > h4{
+    color: white;
+}
+
+.amount{
+    position: relative;
+    width:1280px;
+    height:132px;
+    background-color: white;
+    display:flex;
+    margin:auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+.amount > li{
+    flex:1;
+    text-align: center;
+    height:57px;
+    margin-top:37px;   
+} 
+
+.amount > li:not(:last-child){
+    border-right:1px solid #E1E1E1;
+}
+
+.gray_ground{
+    position:relative;
+    z-index: 1;
+    margin-top: -66px;
+    width:100%;
+    height:601px;
+    background-color: #F1F2F3;
+    padding-top: 116px;
+    text-align: center;
+    
+}
+
+.gray_ground > .icons{
+    height:302px;
+    width: 1280px;
+    background: rgba(0,0,0,0.0);
+    margin: auto;
+    margin-top: 49px;
+}
+
+.gray_ground > ul{
+    display:flex;
+}
+
+.gray_ground > ul > li{
+    flex:1;
+    background: white;
+}
+
+.gray_ground > ul> li:not(:last-child){
+    margin-right:20.67px;
+}
+
+.icons > li > .icon{
+    margin-top:36px;
+}
+
+.icons > li > .pont14{
+    width:240px;
+    padding-top: 8px;
+    margin:auto;
+}
+
+.icons .more{
+    background: #2F7AF4;
+    width:100px;
+    height:30px;
+    color:white;
+    line-height: 30px;
+    margin:10px auto;
+    font-size: 12px;
+}
+
+.service_bg{
+    width:100%;
+    height:659px;
+    text-align: center;
+}
+
+.service_bg > h1{
+    padding-top:50px;
+}
+
+.service_bg > .contents1{
+    padding-top: 3px;
+}
+
+.service_bg > ul{
+    display: flex;
+    width:1280px;
+    height:426.5px;
+    background: white;
+    margin:auto;
+}
+
+.service_bg > ul > li{
+    flex:1;
+}
+
+.service_bg > ul{
+    margin-top:49px;
+}
+.service_bg > ul > .food_content{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.service_bg .contents2{
+    font-weight: bold;
+    font-size: 24px;
+}
+.service_bg .contents3{
+    margin-top: 27px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contact_bg{
+    height:418px;
+    width:100%;
+    background-image: url("image/flash-4244923_1920.png");
+    background-size: 100% 100%;
+    display: flex;
+    text-align: center;
+}
+
+.contact_bg > div {
+    color: white;
+    flex:1;
+    padding-top: 138px;
+}
+
+.contact_bg > div > div,
+.contact_bg > div > h1{
+    color:white;
+}
+
+.button{
+    width:220px;
+    height:40px;
+    border: 1px solid white;
+    margin: 20px auto;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+footer{
+    width:100%;
+    height:244px;
+    background: #1f1f1f;
+    display: flex;
+
+}
+
+footer > div:first-child{
+    margin:auto;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    flex:3;
+}
+footer > div:last-child{
+    margin:auto;
+    color:white;
+    flex:9;
+}
+
